@@ -1,0 +1,27 @@
+{
+	"targetName": "DerelictD3D11",
+    "workingDirectory": "lib",
+    "version": "~master",
+	"description": "A dynamic binding to the WindowsKits8.1 library.",
+	"copyright": "Copyright © 2015, ousttrue",
+	"authors": ["ousttrue"],
+	"dependencies": {
+        "derelict-util": ">=1.9.1",
+	},
+    "importPaths": [
+        "source/",
+    ],
+    "license": "Boost",
+    "configurations":[
+        {
+            "name": "library",
+            "targetType": "library",
+        },
+    ],
+    "targetPath": "lib",
+     "sourcePaths": [
+        "source/"
+    ],
+    "name": "derelict-d3d11",
+}
+
