@@ -2,7 +2,7 @@ module derelict.windows.kits_8_1.dxgi;
 public import derelict.windows.kits_8_1.dxgiformat;
 public import derelict.windows.kits_8_1.dxgitype;
 public import std.uuid;
-import core.sys.windows.windows;
+import core.sys.windows.windef;
 import core.sys.windows.com;
 
 version (Windows):

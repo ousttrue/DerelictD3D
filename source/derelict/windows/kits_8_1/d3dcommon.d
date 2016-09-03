@@ -1,5 +1,5 @@
 module derelict.windows.kits_8_1.d3dcommon;
-import core.sys.windows.windows;
+import core.sys.windows.windef;
 import core.sys.windows.com;
 import std.uuid;
 
